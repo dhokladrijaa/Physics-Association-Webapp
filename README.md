@@ -1,6 +1,6 @@
 # 🌌 Physics Association Website
 
-Welcome to the official **Physics Association Web Portal** — a dynamic, responsive, and visually engaging website designed to showcase departmental highlights, research areas, curriculum, faculty, and achievements.
+This is an attempt at the project for creating a **Physics Association Web Portal** — a dynamic, responsive, and visually engaging website designed to showcase departmental highlights, research areas, curriculum, faculty, and achievements.
 
 ---
 
