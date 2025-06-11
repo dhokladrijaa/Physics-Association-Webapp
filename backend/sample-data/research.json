@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Quantum Computing & Information",
+    "description": "Exploring quantum algorithms, entanglement, and computational complexity with qubit-based systems.",
+    "department": "Quantum Sciences"    
+  },
+  {
+    "title": "Condensed Matter Physics",
+    "description": "Research on superconductivity, magnetism, and topological phases in low-dimensional systems.",
+    "department": "Materials Science"
+  },
+  {
+    "title": "High-Energy Particle Physics",
+    "description": "Investigating the fundamental constituents of matter through collider experiments and theoretical models.",
+    "department": "Particle Physics"
+  },
+  {
+    "title": "Astrophysics & Cosmology",
+    "description": "Studying galaxies, black holes, dark matter, and the evolution of the universe from the Big Bang onward.",
+    "department": "Quantum Sciences"
+  },
+  {
+    "title": "Optical & Laser Physics",
+    "description": "Advancing photonic technologies and ultrafast lasers for spectroscopy, imaging, and communication.",
+    "department": "Quantum Sciences"
+  },
+  {
+    "title": "Nuclear Physics",
+    "description": "Understanding the structure and dynamics of atomic nuclei, nuclear reactions, and radioactive decay.",
+    "department": "Particle Physics"
+  },
+  {
+    "title": "Plasma & Space Physics",
+    "description": "Modeling plasma behavior in fusion devices and studying space weather and magnetospheric phenomena.",
+    "department": "Particle Physics"
+
+  },
+  {
+    "title": "Biophysics",
+    "description": "Applying physical principles to biological systems to study molecular motors, cell mechanics, and neural networks.",
+    "department": "Quantum Sciences"
+  }
+]

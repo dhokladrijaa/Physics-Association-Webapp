@@ -1,0 +1,161 @@
+<!-- Updated version of index.html will include:
+1. Functional faculty search
+2. Moved back-to-top button to the bottom of the page
+3. Curriculum and Achievements sections
+4. Horizontally scrollable faculty section with arrow nav and progress bar
+5. Fixed Department Highlights slider with fixed size container -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Physics Association</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Sticky desktop navbar -->
+  <header>
+    <h1 class="logo">Physics Association</h1>
+    <nav>
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#highlights" class="nav-link">Highlights</a>
+      <a href="#faculty" class="nav-link">Faculty</a>
+      <a href="#research" class="nav-link">Research</a>
+      <a href="#curriculum" class="nav-link">Curriculum</a>
+      <a href="#achievements" class="nav-link">Achievements</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- HERO / HOME -->
+  <section id="home" class="hero">
+    <h2>Welcome to the<br /><span>Physics Association</span></h2>
+    <p>Explore our cutting-edge research and academic programs</p>
+
+    <div id="announcement-card" class="card">
+      <h3><span class="bell">🔔</span> Announcements</h3>
+      <div class="carousel">
+        <button class="prev">&lt;</button>
+        <div class="slide-container">
+          <div class="slide"></div>
+        </div>
+        <button class="next">&gt;</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- DEPARTMENT HIGHLIGHTS -->
+  <section id="highlights" class="highlight-section fade-in">
+    <h2>Department Highlights</h2>
+    <div class="highlight-carousel">
+      <button class="highlight-btn prev">‹</button>
+      <div class="highlight-slider-wrapper">
+        <div class="highlight-slider fixed-slider-height">
+          <div class="highlight-slide active">
+            <img src="images/highlight1.jpg" alt="Highlight 1">
+            <div class="caption-overlay">Inauguration of Quantum Computing Lab, 2025</div>
+          </div>
+          <div class="highlight-slide">
+            <img src="images/highlight2.jpg" alt="Highlight 2">
+            <div class="caption-overlay">Annual Physics Fest - Student Exhibitions & Talks</div>
+          </div>
+          <div class="highlight-slide">
+            <img src="images/highlight3.jpg" alt="Highlight 3">
+            <div class="caption-overlay">Interdisciplinary Seminar on Astrophysics</div>
+          </div>
+        </div>
+      </div>
+      <button class="highlight-btn next">›</button>
+    </div>
+  </section>
+
+<!-- FACULTY -->
+<section id="faculty">
+  <h2>Our Faculty</h2>
+  <input id="faculty-search" type="search" placeholder="Search faculty…" />
+  <div class="filter-chips" id="department-filters">
+  <!--chips will be added here-->
+  </div>
+  <div class="faculty-scroll-container">
+    <button class="scroll-left">‹</button>
+    
+    <div id="faculty-grid" class="grid horizontal-scroll">
+      <!-- Cards are dynamically generated -->
+    </div>
+    
+    <button class="scroll-right">›</button>
+  </div>
+
+  <div class="scroll-progress-bar">
+    <div class="scroll-progress"></div>
+  </div>
+</section>
+
+<!-- RESEARCH -->
+<section id="research">
+  <h2>Research Areas</h2>
+  <div id="research-filters" class="filter-chips"></div>
+  <div id="research-list" class="grid"></div>
+</section>
+
+
+<!-- CURRICULUM SECTION -->
+<section id="curriculum">
+  <h2>Curriculum & Course Structure</h2>
+  <div class="curriculum-grid">
+    <div class="curriculum-card" onclick="openCurriculumModal('BS-MS in Physics', 'curriculum/bsms-physics.pdf')">
+      <h3>BS-MS in Physics</h3>
+      <p>Integrated dual-degree program focused on foundational and advanced physics.</p>
+      <span class="click-hint">Click to view curriculum PDF</span>
+    </div>
+    <div class="curriculum-card" onclick="openCurriculumModal('B.Tech in Engineering Physics', 'curriculum/btech-ep.pdf')">
+      <h3>B.Tech in Engineering Physics</h3>
+      <p>Blend of physics and engineering to solve real-world problems.</p>
+      <span class="click-hint">Click to view curriculum PDF</span>
+    </div>
+    <div class="curriculum-card disabled">
+      <h3>M.Tech / PhD</h3>
+      <p>Curriculum coming soon.</p>
+    </div>
+  </div>
+
+</section> 
+
+
+<div id="curriculum-modal" class="modal">
+  <div class="modal-content">
+    <button class="modal-close" onclick="closeCurriculumModal()">×</button>
+    <iframe id="curriculum-pdf" src="" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+
+<!-- DEPARTMENT ACHIEVEMENTS -->
+<section id="achievements">
+  <h2>Department Achievements</h2>
+  <div id="achievement-grid" class="grid"></div>
+</section>
+
+
+<!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form id="contact-form">
+      <form id="contact-form" novalidate>
+  <input name="name" placeholder="Name" required />
+  <input name="email" type="email" placeholder="Email" required />
+  <textarea name="msg" placeholder="Message" required></textarea>
+  <button type="submit">Send</button>
+</form>
+<p id="form-status"></p>
+
+    <p id="form-status"></p>
+  </section>
+
+<!-- BACK TO TOP -->
+<button id="back-to-top" title="Back to Top">⇧</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

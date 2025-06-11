@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Dr. Alyssa Patel",
+    "position": "Professor",
+    "area": "Condensed-Matter Physics",
+    "department": "Materials Science",
+    "image": "images/alyssa.jpg"
+  },
+  {
+    "name": "Dr. Anthony Rivera",
+    "position": "Associate Professor",
+    "area": "Astrophysics",
+    "department": "Astronomy",
+    "image": "images/anthony.jpg"
+  },
+  {
+    "name": "Dr. Sophia Gupta",
+    "position": "Assistant Professor",
+    "area": "Quantum Computing",
+    "department": "Quantum Sciences",
+    "image": "images/sophia.jpg"
+  },
+  {
+    "name": "Dr. Suresh Iyer",
+    "position": "Professor",
+    "area": "Nuclear Physics",
+    "department": "Nuclear & Particle Physics",
+    "image": "images/fac1.jpg"
+  },
+  {
+    "name": "Dr. Lina Roy",
+    "position": "Associate Professor",
+    "area": "Optical Spectroscopy",
+    "department": "Optics & Photonics",
+    "image": "images/fac2.jpg"
+  },
+  {
+    "name": "Dr. Nikhil Das",
+    "position": "Assistant Professor",
+    "area": "High-Energy Physics",
+    "department": "Nuclear & Particle Physics",
+    "image": "images/fac3.jpg"
+  },
+  {
+    "name": "Dr. Farah Khan",
+    "position": "Associate Professor",
+    "area": "Solid State Physics",
+    "department": "Materials Science",
+    "image": "images/fac4.jpg"
+  },
+  {
+    "name": "Dr. Arjun Rao",
+    "position": "Professor",
+    "area": "Quantum Computing",
+    "department": "Quantum Sciences",
+    "image": "images/fac5.jpg"
+  },
+  {
+    "name": "Dr. Meera Sharma",
+    "position": "Associate Professor",
+    "area": "Astrophysics",
+    "department": "Astronomy",
+    "image": "images/fac6.jpg"
+  }
+]
