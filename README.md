@@ -23,6 +23,7 @@ This is an attempt at the project for creating a **Physics Association Web Porta
 | Category     | Technologies Used                     |
 |--------------|----------------------------------------|
 | Frontend     | `HTML`, `CSS`, `JavaScript` (Vanilla) |
+| Backend      | Node.js |
 | Data         | Static `.json` files (for announcements, faculty, research, achievements) |
 | UI Effects   | `CSS Grid/Flexbox`, `IntersectionObserver`, `modal`, `carousel`, `hover effects` |
 | Optional     | Easily extendable to integrate with Firebase, Google Sheets, or Formspree |
