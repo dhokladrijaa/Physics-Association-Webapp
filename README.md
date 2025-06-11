@@ -57,17 +57,14 @@ Welcome to the official **Physics Association Web Portal** — a dynamic, respon
 ![image](https://github.com/user-attachments/assets/8354c26e-dbb9-4f8f-832e-b9a3b7719b89)
 
 **🧑‍🏫 Faculty Section with Selectable/Deselectable Filters**
-![image](https://github.com/user-attachments/assets/90eea4e2-a78c-4d9f-9293-f958f4cadedb)
-![image](https://github.com/user-attachments/assets/74af0f10-edeb-4266-a036-858fbc51784c)
+![image](https://github.com/user-attachments/assets/90eea4e2-a78c-4d9f-9293-f958f4cadedb) ![image](https://github.com/user-attachments/assets/74af0f10-edeb-4266-a036-858fbc51784c)
 
 
 **📂 Curriculum Modal Preview**
-![image](https://github.com/user-attachments/assets/b4279c01-16cc-49b6-8693-29ae05ebbcc4)
-![image](https://github.com/user-attachments/assets/deb6cba5-562c-43f7-9bed-b6865f727dd6)
+![image](https://github.com/user-attachments/assets/b4279c01-16cc-49b6-8693-29ae05ebbcc4) ![image](https://github.com/user-attachments/assets/deb6cba5-562c-43f7-9bed-b6865f727dd6)
 
 **Expandable (on hover) Research Area with Filters**
-![image](https://github.com/user-attachments/assets/ab44a35f-4de6-4fe2-8b38-db8ee77c4036)
-![image](https://github.com/user-attachments/assets/d0f4e19d-340b-4ae4-8d18-d2a4426f5e36)
+![image](https://github.com/user-attachments/assets/ab44a35f-4de6-4fe2-8b38-db8ee77c4036) ![image](https://github.com/user-attachments/assets/d0f4e19d-340b-4ae4-8d18-d2a4426f5e36)
 
 
 ## Link to Demonstration Video- 
